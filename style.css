@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul, ol, li{
+    list-style: none;
+}
+/* FIM DO RESET*/
+
+body{
+    background-color: aqua;
+}
+
+header{
+    background-color: goldenrod;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 40px;
+    padding-left: 53px;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.menu {
+    display: flex;
+    gap: 106px;
+    font-size: 63px;
+    align-items: center;
+    margin-left: 1300px;
+    margin-top: 69px;
+}
+
+header a{
+    font-size: 20px;
+}
+.registrar{
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 69px;
+    margin-top: 50px;
+}
