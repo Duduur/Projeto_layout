@@ -14,19 +14,22 @@ ul, ol, li{
 /* FIM DO RESET*/
 
 body{
-    background-color: aqua;
+    background-image: url(./img/valorant.png);
+    background-size: 2400px 1600px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: -9px;
 }
 
 header{
-    background-color: goldenrod;
     height: 100px;
     display: flex;
     justify-content: space-between;
 }
 
 .logo{
-    padding-top: 40px;
-    padding-left: 53px;
+    padding-top: 50px;
+    padding-left: 69px;
 }
 .logo img{
     height: 70px;
@@ -34,11 +37,13 @@ header{
 }
 .menu {
     display: flex;
-    gap: 106px;
+    gap: 206px;
     font-size: 63px;
     align-items: center;
-    margin-left: 1300px;
+    margin-left: 1000px;
     margin-top: 69px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
 }
 
 header a{
@@ -54,4 +59,29 @@ header a{
     align-items: center;
     margin-right: 69px;
     margin-top: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
 }
+
+main{
+    background-color: darkorchid;
+    height: 600px;
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 238px;
+    padding-left: 54px;
+}
+
+.container h1{
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.container h2{
+    font-size: 100px;
+}
+
