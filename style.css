@@ -39,7 +39,7 @@ header{
     align-items: center;
     gap: 15vh;
     margin-top: 4vh;
-    margin-left: 60vh;
+    margin-left: 80vh;
     font-size: 20px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -50,15 +50,18 @@ header a{
 }
 
 .registrar{
-    background-color: black;
+    border-color:#95FF00;
+    background-color: #1B2A2E;
+    border-style: solid;
+    border-width: 5px;
     width: 20vh;
-    height: 5vh;
+    height: 6vh;
     border-radius: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 69px;
-    margin-top: 7vh;
+    margin-top: 5vh;
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
@@ -71,20 +74,20 @@ main{
 .container{
     display: flex;
     flex-direction: column;
-    padding-top: 238px;
-    padding-left: 69px;
+    padding-top: 180px;
+    padding-left: 80px;
 }
 
 
 .container h1{
-    font-size: 70px;
+    font-size: 100px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: white;
 }
 
 .container h2{
-    font-size: 100px;
+    font-size: 120px;
     color: #1B2A2E;
     font-family: "Krona One", sans-serif;
     -webkit-text-stroke-width: 0.1px; /* serve para colocar a borda nas letras*/
@@ -92,7 +95,7 @@ main{
 }
 
 .container h3{
-    font-size: 100px;
+    font-size: 120px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: white;
@@ -107,7 +110,7 @@ main{
 }
 
 footer{
-    background-color: lightpink;
+
     height: 10vw;
 }
 
@@ -115,20 +118,71 @@ footer{
     display: flex;
     gap: 5vh;
     align-items: center;
-
+    padding-left: 69px;
 }
 
-.sentinela{
-    background-color: #1A1A35;
+.elos img{
+    border-color: #333244;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px 50px 50px 50px;
+    height: 200px;
+    width: 200px;
+   
+}
+.controlador img{
+    border-color: #95FF00;
 }
 
-.controlador{
-    background-color: #1A1A35;
+.letras{
+    display: flex;
+    gap: 5vh;
+    align-items: center;
+    padding-left: 69px;
+    font-size: 250px;
+    position: absolute;
+    font-family: "Londrina Sketch", sans-serif;
+    color: white;
 }
 
-.duelista{
-    background-color:#1A1A35;
+.c {
+    top: 50%;
+    left: 50%;
+    transform: translate(90%, -60%);
+    height: 35vh;
+    z-index: -1;
+    color: #95FF00;
 }
-.iniciador{
-    background-color: #1A1A35;
+.letras span{
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, -65%);
+    height: 34vh;
+    z-index: -1;
+}
+.d{
+    top: 50%;
+    left: 50%;
+    transform: translate(170%, -60%);
+    height: 35vh;
+    z-index: -1;
+}
+
+.i{
+    top: 50%;
+    left: 50%;
+    transform: translate(450%, -60%);
+    height: 35vh;
+    z-index: -1;
+}
+
+.tipo{
+    top: 91%;
+    display: flex;
+    gap: 12vh;
+    align-items: center;
+    padding-left: 100px;
+    font-size: 30px;
+    position: absolute;
+    color: white;
 }
