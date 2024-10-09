@@ -17,6 +17,7 @@ body{
     background-image: url(./img/valorant.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 header{
@@ -110,7 +111,6 @@ main{
 }
 
 footer{
-
     height: 10vw;
 }
 
@@ -185,4 +185,12 @@ footer{
     font-size: 30px;
     position: absolute;
     color: white;
+}
+
+.diamante{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-left: 50%;
+    height: 35vh;
 }
