@@ -115,19 +115,22 @@ footer{
 }
 
 .elos{
+    position: absolute;
     display: flex;
     gap: 5vh;
     align-items: center;
     padding-left: 69px;
+    z-index: 2;
 }
 
 .elos img{
+    transform: translate(5%, 77%);
     border-color: #333244;
     border-style: solid;
     border-width: 5px;
     border-radius: 50px 50px 50px 50px;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 260px;
    
 }
 .controlador img{
@@ -138,59 +141,82 @@ footer{
     display: flex;
     gap: 5vh;
     align-items: center;
-    padding-left: 69px;
-    font-size: 250px;
+    font-size: 340px;
     position: absolute;
     font-family: "Londrina Sketch", sans-serif;
     color: white;
+    z-index: 1;
 }
 
 .c {
-    top: 50%;
-    left: 50%;
-    transform: translate(90%, -60%);
-    height: 35vh;
+    transform: translate(1%, 45%);
     z-index: -1;
     color: #95FF00;
+    padding-left: 3vw;
+    height: 250px;
+    width: 260px;
 }
 .letras span{
-    top: 50%;
-    left: 50%;
-    transform: translate(30%, -65%);
-    height: 34vh;
+    transform: translate(15%, 45%);
     z-index: -1;
+    padding-left: 3vw;
+    height: 250px;
+    width: 260px;
 }
 .d{
-    top: 50%;
-    left: 50%;
-    transform: translate(170%, -60%);
-    height: 35vh;
+    padding-left: 3vw;
+    transform: translate(5%, 45%);
     z-index: -1;
+    height: 250px;
+    width: 260px;
 }
 
 .i{
-    top: 50%;
-    left: 50%;
-    transform: translate(450%, -60%);
-    height: 35vh;
+    transform: translate(5%, 45%);
     z-index: -1;
+    padding-left: 3vw;
+    height: 250px;
+    width: 260px;
 }
 
-.tipo{
-    top: 91%;
+.class span{
+    transform: translate(5%, 400%);
     display: flex;
-    gap: 12vh;
+    gap: 30vh;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 7vh;
     font-size: 30px;
     position: absolute;
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.tipo{
+    transform: translate(1%, 1100%);
+    display: flex;
+    gap: 15vh;
+    align-items: center;
+    padding-left: 10vh;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    z-index: 2;
 }
 
 .diamante{
     display: flex;
+    transform: translate(30%, 85%);
     justify-content: center;
     align-items: right;
-    margin-left: 50%;
-    height: 35vh;
+    height: 20vh;
+    border-radius: 50px;
 }
+
+.procurar{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
